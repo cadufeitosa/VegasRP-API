@@ -1,0 +1,28 @@
+{
+  "name": "vegasapi",
+  "version": "1.0.0",
+  "description": "Simple API for VegasRP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VegasStudio/api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VegasStudio/api/issues"
+  },
+  "homepage": "https://github.com/VegasStudio/api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7"
+  }
+}
